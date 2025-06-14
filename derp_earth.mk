@@ -16,6 +16,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 DERP_BUILDTYPE := Community
+TARGET_NOT_USES_BLUR := true
 
 PRODUCT_NAME := derp_earth
 PRODUCT_DEVICE := earth
