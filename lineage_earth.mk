@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 720
+WITH_GMS := true
+
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
