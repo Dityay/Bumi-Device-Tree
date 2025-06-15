@@ -16,7 +16,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     Photo \
     PersonalSafety \
     SafetyHubPrebuilt \
+    SetupWizardPrebuilt \
     Velvet \
+    WellbeingPrebuilt \
     YouTube
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
