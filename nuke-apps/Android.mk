@@ -13,7 +13,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     GoogleTTS \
     Maps \
-    Photo \
+    Photos \
     PersonalSafety \
     SafetyHubPrebuilt \
     SetupWizardPrebuilt \
