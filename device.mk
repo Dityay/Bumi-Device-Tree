@@ -224,6 +224,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_aether/android.hardware.nfc.uicc.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_aether/com.android.nfc_extras.xml
 
+# Nuke Apps
+PRODUCT_PACKAGES += \
+    nuke-apps
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayEarth \
